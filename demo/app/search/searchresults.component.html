@@ -1,0 +1,121 @@
+
+    <p [hidden]="loadingMsg">Loading Flights... </p>
+
+    
+    <div class="" [hidden]="serverError">
+
+    <p class="errorMessage">{{serverErrorMsg}}</p>
+    </div>
+
+    <div class="pure-g" [hidden]="searchResultsVisible">
+		
+		<aside class="pure-u-1 pure-u-md-4-24  pure-u-lg-4-24">
+		  <h2>Price</h2>
+		  <div class="range-wrapper">
+		      <p>{{currency}} {{minPrice}}–{{currency}} {{maxPrice}}</p>
+			<range-selector (changed)=changed($event) [minPrice]='minPrice' [maxPrice]='maxPrice'></range-selector>
+		  </div>
+		  <h2>Airlines</h2>
+		  <div class="filter-wrapper">   
+			<p *ngFor="#airlines of carrier"> 
+		<input type="checkbox"  name="airline" value="{{airlines.code}}"  [(ngModel)]="airlines.selected" (click)="filterByAirline(carrier)" >{{airlines.name}}
+		    </p>
+          </div>
+		</aside>
+		<main class="pure-u-1 pure-u-md-18-24  pure-u-lg-19-24">
+		      <div class="pure-u-1 modify-search">
+			       <h2 (click)="toggleSearchform()">Modify search</h2> 
+				       <div [hidden]="searchFormVisible" class="modify-search-wrapper">
+						<search-form ></search-form>
+					   </div>
+			  </div>
+
+			<div class="pure-u-1 search-results-menu">
+			  <div class="pure-u-3-5 pure-u-sm-2-5 pure-u-md-2-5  pure-u-lg-11-24">
+			    <strong>{{filterCount}} Out Of {{count}} Results</strong>
+			  </div>
+			  <div class="pure-u-3-5 pure-u-sm-2-5 pure-u-md-2-5  pure-u-lg-12-24 sortby">
+			     <strong (click)="priceSortBy(true)">Sort By: <span>({{priceSortByDisplay}})</span></strong>
+			  </div>
+			</div>
+		    <div class="pure-g search-result-item" *ngFor="#trip of filtered">
+
+				<div class="pure-u-1 pure-u-md-1-5  pure-u-lg-1-5" >
+				  
+				   <strong class="price">{{trip.saleTotal}}</strong>
+				   <p><button class="button-success pure-button booknow-btn">Book Now</button></p>
+				</div>
+				<div class="pure-u-1 pure-u-md-2-5  pure-u-lg-2-5">
+				    <div class="pure-g">
+						<div class="pure-u-1-5 pure-u-sm-2-5 pure-u-md-2-5  pure-u-lg-1-5">
+						  <img src="images/plane.png" alt="plane" width="46" height="39" class="airline-logo" >
+						</div>
+						<div class="pure-u-4-5 pure-u-sm-4-5 pure-u-md-4-5  pure-u-lg-4-5">
+						  <p class="airline-name">{{trip.carrierName}}</p>
+						  <p><Strong>{{trip.origin.date | extracttime }} </Strong>{{trip.origin.airport}} <img class="arrow" src="images/arrow.png" alt="plane" width="15" height="7"> <Strong>{{trip.destination.date | extracttime }}</Strong> {{trip.destination.airport}}</p>
+
+						</div>  
+
+					</div>	
+				  
+				</div>
+				<div class="pure-u-1 pure-u-md-2-5  pure-u-lg-2-5 col3" >
+				     <p class="stops" *ngIf="trip.stopsCount>=1">{{trip.stopsCount}} stops ({{trip.stops}})</p> 
+					 <p class="stops" *ngIf="trip.stopsCount==0">Non-Stop</p>
+					<strong>{{trip.durationDisplay}}</strong>
+					    <p>
+							<a href="#" class="show-details" (click)="toggle($event)">Show Details</a>
+						</p>
+				</div>
+				
+				<div class="pure-u-1 flight-details">
+				   <h2>Depart{{title}}</h2>
+				   <p class="highlight">{{trip.origin.airport}} to {{trip.destination.airport}} leaves on {{trip.origin.date | dayofweek}} ({{trip.origin.date | dayandmonth}}) and arrives on {{trip.destination.date | dayofweek}}({{trip.destination.date | dayandmonth}})</p>
+				     
+					<div *ngFor="#leg of trip.legs"> 
+						<div class="pure-u-1" class="leg-aircraft">
+						   <p class="pure-u-3-5 pure-u-sm-2-5 pure-u-md-3-5  pure-u-lg-3-5 flight-operator">
+								{{leg.carrierName}} - {{leg.airCraft}}
+						   </p>
+						   <p class="pure-u-1-5 pure-u-sm-1-5 pure-u-md-1-5  pure-u-lg-1-5">
+							{{leg.durationDisplay}}
+						   </p>
+					     </div>
+						<div class="pure-u-1 leg">
+							<p class="pure-u-1-5 pure-u-sm-1-5 pure-u-md-1-5  pure-u-lg-1-5 departure">
+							 <strong>{{leg.departureTime | extracttime}}</strong>
+						   </p>
+							 <p class="pure-u-2-5 pure-u-sm-2-5 pure-u-md-2-5  pure-u-lg-2-5">
+							 {{leg.departureTime | daymonthyear}}
+						   </p>
+							 <p class="pure-u-1-5 pure-u-sm-1-5 pure-u-md-1-5  pure-u-lg-1-5">
+							 {{leg.origin}}
+						   </p>
+						
+						</div>
+						
+						<div class="pure-u-1 leg">
+							<p class="pure-u-1-5 pure-u-sm-1-5 pure-u-md-1-5  pure-u-lg-1-5 arrival">
+							 <strong>{{leg.arrivalTime | extracttime}}</strong>
+						   </p>
+							 <p class="pure-u-2-5 pure-u-sm-2-5 pure-u-md-2-5  pure-u-lg-2-5">
+							{{leg.arrivalTime | daymonthyear}}
+						   </p>
+							 <p class="pure-u-1-5 pure-u-sm-1-5 pure-u-md-1-5  pure-u-lg-1-5">
+							 {{leg.destination}}
+						   </p>
+						
+						</div>
+					</div>
+				</div>
+
+	
+		    </div>
+			
+		</main>
+		
+	</div>
+	
+
+
+

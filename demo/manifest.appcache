@@ -1,0 +1,117 @@
+CACHE MANIFEST
+# sw.bundle: ng-cli
+# sw.version: 523b5747cb2ac4f2375c9c9685a14d53ead629c6
+# sw.file.hash: be316f509259260dcc1cebc24f8a357269a18251
+\api\data.json
+# sw.file.hash: be316f509259260dcc1cebc24f8a357269a18251
+\api\test.json
+# sw.file.hash: 21267be14c8fb932e576eda67a195d47e22a0223
+\app\config.js
+# sw.file.hash: 4bd3eb37a254191630913a9bcee33cb42e2df084
+\app\config.js.map
+# sw.file.hash: 3981080332b61823895fb36cde2fda8e57d45261
+\app\environment.js
+# sw.file.hash: bb6a779e2fb753f2ad52a48841303eb2c2c26d06
+\app\environment.js.map
+# sw.file.hash: a6aab421500581830708e34385e2166e7a039ba7
+\app\flights.html
+# sw.file.hash: b74fca0ac0aa7947f7edddd6db680684f599eae2
+\app\flights.js
+# sw.file.hash: bd94b0d5b83e452ee3c41254b22f1ca755e1d8ff
+\app\flights.js.map
+# sw.file.hash: 8a49fa29e95d4afafa114f7c6b0c30ae4ea47852
+\app\flights.spec.js
+# sw.file.hash: d5806298e9e7889d5af415f482890fe5476b7bc4
+\app\flights.spec.js.map
+# sw.file.hash: 65eef7bac5a8ace8f191607c43cc1097ca5244a3
+\app\pipes\dayandmonth.js
+# sw.file.hash: ec3d5a5c8d114ea749cc1d224f2424746fc0c46c
+\app\pipes\dayandmonth.js.map
+# sw.file.hash: 8393886192c97af474106d3039a421192a65fe71
+\app\pipes\daymonthyear.js
+# sw.file.hash: 8f345feea48349bbec94cf9ece0ad8922e639085
+\app\pipes\daymonthyear.js.map
+# sw.file.hash: 92bd380044df994f5301ce079ce3ccd11d9cb061
+\app\pipes\dayofweek.js
+# sw.file.hash: 98c24286551eca63b31346e60aa27c4ed6fcb202
+\app\pipes\dayofweek.js.map
+# sw.file.hash: 59f8dbe0cd651e9f0f2a68c6bf1b5a4e51794195
+\app\pipes\extracttime.js
+# sw.file.hash: 8098af9bef148b784f23c5b06d49023bacfe567e
+\app\pipes\extracttime.js.map
+# sw.file.hash: 4bf6bafa530cede5f8b00781abe2e6e9bffa7a5f
+\app\search\model\search.js
+# sw.file.hash: 6c37ec456011ea0124af5265d8e6913be4b1ca0a
+\app\search\model\search.js.map
+# sw.file.hash: 5a19c1d84eb58bb8ed8dca894cce86afe6f72cdf
+\app\search\search.service.js
+# sw.file.hash: c3fb4f7e6e776a566936738be9651882117b893d
+\app\search\search.service.js.map
+# sw.file.hash: 9fa4a8c9ffe255068b35f2a42dbc2d3bd61d8920
+\app\search\searchform.component.html
+# sw.file.hash: 544b258a51069029ad61d61e19bdaabd28b0ea41
+\app\search\searchform.component.js
+# sw.file.hash: b5328dcb24e86fbb27e92db47b23fc848c175f19
+\app\search\searchform.component.js.map
+# sw.file.hash: 41da0019c833f8332eebd1524234cabc86246247
+\app\search\searchresults.component.html
+# sw.file.hash: fba62c51fb35abc5e73fc74e352f714f61c0ca23
+\app\search\searchresults.component.js
+# sw.file.hash: 87e1c4af3d31ffb711170b8c0184d5a75709edd5
+\app\search\searchresults.component.js.map
+# sw.file.hash: c7f0fbac013f8d923daea9dac133c1bcd3a3cdf8
+\app\shared\rangeslider\rangeselector.component.html
+# sw.file.hash: 35ad19cc47a94a8c3678cea1d7bcd47d80cb0b3c
+\app\shared\rangeslider\rangeselector.component.js
+# sw.file.hash: 53f87ffe70ff2de38bdceadf461e85adc5d82858
+\app\shared\rangeslider\rangeselector.component.js.map
+# sw.file.hash: 84161b857f5c547e3699ddfbffc6d8d737542e01
+\favicon.ico
+# sw.file.hash: 13d974d3d204e3c78e2635c07d17c12c92505050
+\images\arrow.png
+# sw.file.hash: 52f8cb0a43ed0c235c62bbd3613e2f274642d7e8
+\images\circle.png
+# sw.file.hash: af9e81559df7867f2611c27a4368d232fe04040e
+\images\logo.svg
+# sw.file.hash: d09790f60b7241335be0e9ded284eb7eda821b27
+\images\plane.png
+# sw.file.hash: d2aa131250154a4667705be8480fd75cc97c3072
+\images\sprite.png
+# sw.file.hash: 055d4fdb959714d36a2f702856bd577f9b400a36
+\index.html
+# sw.file.hash: 0524c6e5539f1cc40dfe31d4b55661c6ec07793c
+\main.js
+# sw.file.hash: 9baceb3f0061cd962e2c51dc58d316302443f2b9
+\main.js.map
+# sw.file.hash: 703826508193cbe21f2745d3e837256e224eb512
+\styles\grids-responsive-min.css
+# sw.file.hash: b4e492134d1b450581b77c3de98dbd7665fe052f
+\styles\main.css
+# sw.file.hash: 8cf7ea3e9e00e752de63fbc443e9300366327cd9
+\styles\pure-min.css
+# sw.file.hash: f771ed9013dbcc4f07124e907eb4a854f4d72d62
+\system-config.js
+# sw.file.hash: b2665c1ce75f94bf1883139b57b611f5d8d7a54f
+\system-config.js.map
+# sw.file.hash: 2b8cab9fde0f48a246094c5ce28c75e530579513
+\tsconfig.json
+# sw.file.hash: be771bd0a4170c04abff753212def2a2376a408e
+\vendor\angular2\bundles\angular2-polyfills.js
+# sw.file.hash: f37cd2b1aaaae47ad6abb1c295764f13c0feaf54
+\vendor\angular2\bundles\angular2.dev.js
+# sw.file.hash: e161d053cf096f7e43daa9aafc58026972429e6c
+\vendor\angular2\bundles\http.dev.js
+# sw.file.hash: 7f4f438fda4e4eade76812d3f6186ec78bbe612d
+\vendor\angular2\bundles\router.dev.js
+# sw.file.hash: e25faa64f759f35d881efc242e26c20440479897
+\vendor\angular2\bundles\upgrade.dev.js
+# sw.file.hash: 2adbdc3a7b6d85ac53b76b52234f28b16c88c7b2
+\vendor\es6-shim\es6-shim.js
+# sw.file.hash: f5f0c6707879b8ebc82e158aab45ae248afbd3f1
+\vendor\moment\moment.js
+# sw.file.hash: 736fe8675af5630486329adf5efe12ec7be449b1
+\vendor\rxjs\bundles\Rx.js
+# sw.file.hash: 064ab212cfd9e125474ae3bbb600c366b31e79cb
+\vendor\systemjs\dist\system-polyfills.js
+# sw.file.hash: 83128f4a4209eb7b16ad0bb729fda6939bc450fc
+\vendor\systemjs\dist\system.src.js
