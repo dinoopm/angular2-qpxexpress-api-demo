@@ -1,0 +1,2852 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "ufmCwpZDreJ8prAKQ0ODwJ",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "AMS",
+     "city": "AMS",
+     "name": "Amsterdam Schiphol Airport"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "FRA",
+     "city": "FRA",
+     "name": "Frankfurt International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "TXL",
+     "city": "BER",
+     "name": "Berlin Tegel"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "AMS",
+     "name": "Amsterdam"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "BER",
+     "name": "Berlin"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "FRA",
+     "name": "Frankfurt"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "319",
+     "name": "Airbus A319"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "32A",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73H",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73J",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73W",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "DH4",
+     "name": "De Havilland-Bombardier Dash-8"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "E90",
+     "name": "Embraer RJ-190"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "F70",
+     "name": "Fokker 70"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "RD_002",
+     "name": "German Passenger Service Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "DE_001",
+     "name": "Germany Airport Security Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_F",
+     "name": "AB YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YR_I",
+     "name": "LH YR surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "VV_001",
+     "name": "Netherlands Noise Surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "RN_001",
+     "name": "Netherlands Passenger Service Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "CJ_001",
+     "name": "Netherlands Security Service Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "LH YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "OY_001",
+     "name": "Germany Air Transport Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "RA_002",
+     "name": "German Passenger Service Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "AB",
+     "name": "Air Berlin PLC & Co. Luftverkehrs KG"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "KL",
+     "name": "KLM Royal Dutch Airlines"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "LH",
+     "name": "Deutsche Lufthansa AG"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR114.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "AB",
+         "number": "6577"
+        },
+        "id": "G0r6Vn7IWmVV0Zom",
+        "cabin": "COACH",
+        "bookingCode": "Q",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3ai2GhMobGb0MH+",
+          "aircraft": "320",
+          "arrivalTime": "2016-04-30T10:05+02:00",
+          "departureTime": "2016-04-30T08:50+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 75,
+          "mileage": 268,
+          "meal": "Refreshments"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ast/5N5aBTwU+ql9lC6C54uucXXH1bBz71n4FPnO2WeBv",
+        "carrier": "AB",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "QNCOW"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ast/5N5aBTwU+ql9lC6C54uucXXH1bBz71n4FPnO2WeBv",
+        "segmentId": "G0r6Vn7IWmVV0Zom"
+       }
+      ],
+      "baseFareTotal": "EUR41.00",
+      "saleFareTotal": "EUR41.00",
+      "saleTaxTotal": "EUR73.27",
+      "saleTotal": "EUR114.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR40.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER AB FRA 41.00QNCOW EUR 41.00 END XT 8.18DE 8.78OY 16.31RD 40.00YQ",
+      "latestTicketingTime": "2016-04-27T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR125.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "171"
+        },
+        "id": "GG269pOOMURfE8uB",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-bOwaoS96ywwH7h",
+          "aircraft": "321",
+          "arrivalTime": "2016-04-30T07:10+02:00",
+          "departureTime": "2016-04-30T06:00+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AkzUeJ2al1W3VrkN3ldT6XlSrm93iLPNMD+gGgmp+7PKb",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "T20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AkzUeJ2al1W3VrkN3ldT6XlSrm93iLPNMD+gGgmp+7PKb",
+        "segmentId": "GG269pOOMURfE8uB"
+       }
+      ],
+      "baseFareTotal": "EUR63.00",
+      "saleFareTotal": "EUR63.00",
+      "saleTaxTotal": "EUR62.27",
+      "saleTotal": "EUR125.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 63.00T20CLS9G EUR 63.00 END XT 8.18DE 8.78OY 16.31RD 13.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR125.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "195"
+        },
+        "id": "G3vP+AHBZHLAmo2v",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-iEl9Jq4nvJE-p7",
+          "aircraft": "32A",
+          "arrivalTime": "2016-04-30T17:55+02:00",
+          "departureTime": "2016-04-30T16:45+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AkzUeJ2al1W3VrkN3ldT6XlSrm93iLPNMD+gGgmp+7PKb",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "T20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AkzUeJ2al1W3VrkN3ldT6XlSrm93iLPNMD+gGgmp+7PKb",
+        "segmentId": "G3vP+AHBZHLAmo2v"
+       }
+      ],
+      "baseFareTotal": "EUR63.00",
+      "saleFareTotal": "EUR63.00",
+      "saleTaxTotal": "EUR62.27",
+      "saleTotal": "EUR125.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 63.00T20CLS9G EUR 63.00 END XT 8.18DE 8.78OY 16.31RD 13.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR125.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "199"
+        },
+        "id": "G-l+dk55QseMFbcM",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lse2TYYZTslE+NCX",
+          "aircraft": "321",
+          "arrivalTime": "2016-04-30T19:55+02:00",
+          "departureTime": "2016-04-30T18:45+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AkzUeJ2al1W3VrkN3ldT6XlSrm93iLPNMD+gGgmp+7PKb",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "T20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AkzUeJ2al1W3VrkN3ldT6XlSrm93iLPNMD+gGgmp+7PKb",
+        "segmentId": "G-l+dk55QseMFbcM"
+       }
+      ],
+      "baseFareTotal": "EUR63.00",
+      "saleFareTotal": "EUR63.00",
+      "saleTaxTotal": "EUR62.27",
+      "saleTotal": "EUR125.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 63.00T20CLS9G EUR 63.00 END XT 8.18DE 8.78OY 16.31RD 13.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR125.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "173"
+        },
+        "id": "GFoYNAG4+OqSo0it",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LsCoWB+-SXBL34pS",
+          "aircraft": "321",
+          "arrivalTime": "2016-04-30T07:55+02:00",
+          "departureTime": "2016-04-30T06:45+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AkzUeJ2al1W3VrkN3ldT6XlSrm93iLPNMD+gGgmp+7PKb",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "T20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AkzUeJ2al1W3VrkN3ldT6XlSrm93iLPNMD+gGgmp+7PKb",
+        "segmentId": "GFoYNAG4+OqSo0it"
+       }
+      ],
+      "baseFareTotal": "EUR63.00",
+      "saleFareTotal": "EUR63.00",
+      "saleTaxTotal": "EUR62.27",
+      "saleTotal": "EUR125.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 63.00T20CLS9G EUR 63.00 END XT 8.18DE 8.78OY 16.31RD 13.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR137.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "169"
+        },
+        "id": "GeEKCE2mRldD47Pn",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LT9GK325+a2U0HJs",
+          "aircraft": "320",
+          "arrivalTime": "2016-04-30T20:25+02:00",
+          "departureTime": "2016-04-30T19:15+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "S20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "segmentId": "GeEKCE2mRldD47Pn"
+       }
+      ],
+      "baseFareTotal": "EUR71.00",
+      "saleFareTotal": "EUR71.00",
+      "saleTaxTotal": "EUR66.27",
+      "saleTotal": "EUR137.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR17.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 71.00S20CLS9G EUR 71.00 END XT 8.18DE 8.78OY 16.31RD 17.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-29T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR137.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "175"
+        },
+        "id": "G8hgyfCuDyCA4ioR",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LUGHcWRFrQZqOUjK",
+          "aircraft": "321",
+          "arrivalTime": "2016-04-30T08:55+02:00",
+          "departureTime": "2016-04-30T07:45+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "S20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "segmentId": "G8hgyfCuDyCA4ioR"
+       }
+      ],
+      "baseFareTotal": "EUR71.00",
+      "saleFareTotal": "EUR71.00",
+      "saleTaxTotal": "EUR66.27",
+      "saleTotal": "EUR137.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR17.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 71.00S20CLS9G EUR 71.00 END XT 8.18DE 8.78OY 16.31RD 17.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-29T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR137.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "197"
+        },
+        "id": "GupI6xArW47cMD68",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lbrr5N26GIB2X-h8",
+          "aircraft": "319",
+          "arrivalTime": "2016-04-30T18:55+02:00",
+          "departureTime": "2016-04-30T17:45+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "S20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "segmentId": "GupI6xArW47cMD68"
+       }
+      ],
+      "baseFareTotal": "EUR71.00",
+      "saleFareTotal": "EUR71.00",
+      "saleTaxTotal": "EUR66.27",
+      "saleTotal": "EUR137.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR17.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 71.00S20CLS9G EUR 71.00 END XT 8.18DE 8.78OY 16.31RD 17.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-29T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR137.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "193"
+        },
+        "id": "GLWS6ZbWPEScn7tj",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LgGuyGkYQXDbeNAM",
+          "aircraft": "32A",
+          "arrivalTime": "2016-04-30T16:55+02:00",
+          "departureTime": "2016-04-30T15:45+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "S20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "segmentId": "GLWS6ZbWPEScn7tj"
+       }
+      ],
+      "baseFareTotal": "EUR71.00",
+      "saleFareTotal": "EUR71.00",
+      "saleTaxTotal": "EUR66.27",
+      "saleTotal": "EUR137.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR17.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 71.00S20CLS9G EUR 71.00 END XT 8.18DE 8.78OY 16.31RD 17.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-29T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR137.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "201"
+        },
+        "id": "GOlJeL9PIGqWjim3",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L-Z7IQD8Kom7J-ld",
+          "aircraft": "320",
+          "arrivalTime": "2016-04-30T20:55+02:00",
+          "departureTime": "2016-04-30T19:45+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "S20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AZx+Cma9BypNv5vdJ1FQqDJXT6f9EyRw843ia+QYffd9N",
+        "segmentId": "GOlJeL9PIGqWjim3"
+       }
+      ],
+      "baseFareTotal": "EUR71.00",
+      "saleFareTotal": "EUR71.00",
+      "saleTaxTotal": "EUR66.27",
+      "saleTotal": "EUR137.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR17.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 71.00S20CLS9G EUR 71.00 END XT 8.18DE 8.78OY 16.31RD 17.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-29T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR158.99",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00F",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 265,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "KL",
+         "number": "1822"
+        },
+        "id": "GY22QbMuII8nMkVD",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 5,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LXUVOgbv6lNAXdY9",
+          "aircraft": "73H",
+          "arrivalTime": "2016-04-30T10:40+02:00",
+          "departureTime": "2016-04-30T09:10+02:00",
+          "origin": "TXL",
+          "destination": "AMS",
+          "duration": 90,
+          "mileage": 359,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 105
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "KL",
+         "number": "1767"
+        },
+        "id": "GR541OeaAHVBE8jN",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 5,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lw0zTXls1UqAM8X3",
+          "aircraft": "F70",
+          "arrivalTime": "2016-04-30T13:35+02:00",
+          "departureTime": "2016-04-30T12:25+02:00",
+          "origin": "AMS",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 70,
+          "operatingDisclosure": "OPERATED BY KLM CITYHOPPER",
+          "mileage": 227,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "carrier": "KL",
+        "origin": "BER",
+        "destination": "AMS",
+        "basisCode": "NSRDE"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "carrier": "KL",
+        "origin": "AMS",
+        "destination": "FRA",
+        "basisCode": "RSRDE"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "segmentId": "GY22QbMuII8nMkVD"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "segmentId": "GR541OeaAHVBE8jN"
+       }
+      ],
+      "baseFareTotal": "EUR107.00",
+      "saleFareTotal": "EUR107.00",
+      "saleTaxTotal": "EUR51.99",
+      "saleTotal": "EUR158.99",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR6.87"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR7.38"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "EUR13.71"
+       }
+      ],
+      "fareCalculation": "BER KL X/AMS 75.00NSRDE KL FRA 42.15RSRDE NUC 117.15 END ROE 0.913258 FARE EUR 107.00 XT 6.87DE 7.38OY 13.71RA 10.53CJ 13.00RN 0.50VV",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR158.99",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00E",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 210,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "KL",
+         "number": "1818"
+        },
+        "id": "G36YbH3+j3SZEpOs",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKzUgQ26orjyChcV",
+          "aircraft": "73H",
+          "arrivalTime": "2016-04-30T07:20+02:00",
+          "departureTime": "2016-04-30T06:00+02:00",
+          "origin": "TXL",
+          "destination": "AMS",
+          "duration": 80,
+          "mileage": 359,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 60
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "KL",
+         "number": "1763"
+        },
+        "id": "GjV0ZZa4OHKvhWzX",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LlK5ekCvXMLFDC03",
+          "aircraft": "E90",
+          "arrivalTime": "2016-04-30T09:30+02:00",
+          "departureTime": "2016-04-30T08:20+02:00",
+          "origin": "AMS",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 70,
+          "operatingDisclosure": "OPERATED BY KLM CITYHOPPER",
+          "mileage": 227,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "carrier": "KL",
+        "origin": "BER",
+        "destination": "AMS",
+        "basisCode": "NSRDE"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "carrier": "KL",
+        "origin": "AMS",
+        "destination": "FRA",
+        "basisCode": "RSRDE"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "segmentId": "G36YbH3+j3SZEpOs"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "segmentId": "GjV0ZZa4OHKvhWzX"
+       }
+      ],
+      "baseFareTotal": "EUR107.00",
+      "saleFareTotal": "EUR107.00",
+      "saleTaxTotal": "EUR51.99",
+      "saleTotal": "EUR158.99",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR6.87"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR7.38"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "EUR13.71"
+       }
+      ],
+      "fareCalculation": "BER KL X/AMS 75.00NSRDE KL FRA 42.15RSRDE NUC 117.15 END ROE 0.913258 FARE EUR 107.00 XT 6.87DE 7.38OY 13.71RA 10.53CJ 13.00RN 0.50VV",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR158.99",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00H",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 300,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "KL",
+         "number": "1818"
+        },
+        "id": "G36YbH3+j3SZEpOs",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 6,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKzUgQ26orjyChcV",
+          "aircraft": "73H",
+          "arrivalTime": "2016-04-30T07:20+02:00",
+          "departureTime": "2016-04-30T06:00+02:00",
+          "origin": "TXL",
+          "destination": "AMS",
+          "duration": 80,
+          "mileage": 359,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 150
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "KL",
+         "number": "1765"
+        },
+        "id": "G6fhus1rz2vsPsfA",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 6,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L0iZDTN9kUjzPjQZ",
+          "aircraft": "F70",
+          "arrivalTime": "2016-04-30T11:00+02:00",
+          "departureTime": "2016-04-30T09:50+02:00",
+          "origin": "AMS",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 70,
+          "operatingDisclosure": "OPERATED BY KLM CITYHOPPER",
+          "mileage": 227,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "carrier": "KL",
+        "origin": "BER",
+        "destination": "AMS",
+        "basisCode": "NSRDE"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "carrier": "KL",
+        "origin": "AMS",
+        "destination": "FRA",
+        "basisCode": "RSRDE"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "segmentId": "G36YbH3+j3SZEpOs"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "segmentId": "G6fhus1rz2vsPsfA"
+       }
+      ],
+      "baseFareTotal": "EUR107.00",
+      "saleFareTotal": "EUR107.00",
+      "saleTaxTotal": "EUR51.99",
+      "saleTotal": "EUR158.99",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR6.87"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR7.38"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "EUR13.71"
+       }
+      ],
+      "fareCalculation": "BER KL X/AMS 75.00NSRDE KL FRA 42.15RSRDE NUC 117.15 END ROE 0.913258 FARE EUR 107.00 XT 6.87DE 7.38OY 13.71RA 10.53CJ 13.00RN 0.50VV",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR158.99",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00J",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 445,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "KL",
+         "number": "1826"
+        },
+        "id": "G9LEN7wkdjHGC4UN",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L49v2N1gUG1a1khy",
+          "aircraft": "73H",
+          "arrivalTime": "2016-04-30T15:50+02:00",
+          "departureTime": "2016-04-30T14:30+02:00",
+          "origin": "TXL",
+          "destination": "AMS",
+          "duration": 80,
+          "mileage": 359,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 295
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "KL",
+         "number": "1775"
+        },
+        "id": "GFEK1x9atERQ+TRI",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LbzkjmCG9NcujlbN",
+          "aircraft": "F70",
+          "arrivalTime": "2016-04-30T21:55+02:00",
+          "departureTime": "2016-04-30T20:45+02:00",
+          "origin": "AMS",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 70,
+          "operatingDisclosure": "OPERATED BY KLM CITYHOPPER",
+          "mileage": 227,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "carrier": "KL",
+        "origin": "BER",
+        "destination": "AMS",
+        "basisCode": "NSRDE"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "carrier": "KL",
+        "origin": "AMS",
+        "destination": "FRA",
+        "basisCode": "RSRDE"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "segmentId": "G9LEN7wkdjHGC4UN"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "segmentId": "GFEK1x9atERQ+TRI"
+       }
+      ],
+      "baseFareTotal": "EUR107.00",
+      "saleFareTotal": "EUR107.00",
+      "saleTaxTotal": "EUR51.99",
+      "saleTotal": "EUR158.99",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR6.87"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR7.38"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "EUR13.71"
+       }
+      ],
+      "fareCalculation": "BER KL X/AMS 75.00NSRDE KL FRA 42.15RSRDE NUC 117.15 END ROE 0.913258 FARE EUR 107.00 XT 6.87DE 7.38OY 13.71RA 10.53CJ 13.00RN 0.50VV",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR158.99",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00K",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 455,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "KL",
+         "number": "1818"
+        },
+        "id": "G36YbH3+j3SZEpOs",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 5,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LKzUgQ26orjyChcV",
+          "aircraft": "73H",
+          "arrivalTime": "2016-04-30T07:20+02:00",
+          "departureTime": "2016-04-30T06:00+02:00",
+          "origin": "TXL",
+          "destination": "AMS",
+          "duration": 80,
+          "mileage": 359,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 305
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "KL",
+         "number": "1767"
+        },
+        "id": "GR541OeaAHVBE8jN",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 5,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lw0zTXls1UqAM8X3",
+          "aircraft": "F70",
+          "arrivalTime": "2016-04-30T13:35+02:00",
+          "departureTime": "2016-04-30T12:25+02:00",
+          "origin": "AMS",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 70,
+          "operatingDisclosure": "OPERATED BY KLM CITYHOPPER",
+          "mileage": 227,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "carrier": "KL",
+        "origin": "BER",
+        "destination": "AMS",
+        "basisCode": "NSRDE"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "carrier": "KL",
+        "origin": "AMS",
+        "destination": "FRA",
+        "basisCode": "RSRDE"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "segmentId": "G36YbH3+j3SZEpOs"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "segmentId": "GR541OeaAHVBE8jN"
+       }
+      ],
+      "baseFareTotal": "EUR107.00",
+      "saleFareTotal": "EUR107.00",
+      "saleTaxTotal": "EUR51.99",
+      "saleTotal": "EUR158.99",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR6.87"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR7.38"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "EUR13.71"
+       }
+      ],
+      "fareCalculation": "BER KL X/AMS 75.00NSRDE KL FRA 42.15RSRDE NUC 117.15 END ROE 0.913258 FARE EUR 107.00 XT 6.87DE 7.38OY 13.71RA 10.53CJ 13.00RN 0.50VV",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR158.99",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00I",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 335,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "KL",
+         "number": "1824"
+        },
+        "id": "GMEDsZWZ+4XVRLHF",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lzs+C-4RjWp4DDs8",
+          "aircraft": "73J",
+          "arrivalTime": "2016-04-30T13:30+02:00",
+          "departureTime": "2016-04-30T12:10+02:00",
+          "origin": "TXL",
+          "destination": "AMS",
+          "duration": 80,
+          "mileage": 359,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 190
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 65,
+        "flight": {
+         "carrier": "KL",
+         "number": "1769"
+        },
+        "id": "GTvx9K8vdtTkG1ja",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3K5ttf+Mebcfbfb",
+          "aircraft": "E90",
+          "arrivalTime": "2016-04-30T17:45+02:00",
+          "departureTime": "2016-04-30T16:40+02:00",
+          "origin": "AMS",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 65,
+          "operatingDisclosure": "OPERATED BY KLM CITYHOPPER",
+          "mileage": 227,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "carrier": "KL",
+        "origin": "BER",
+        "destination": "AMS",
+        "basisCode": "NSRDE"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "carrier": "KL",
+        "origin": "AMS",
+        "destination": "FRA",
+        "basisCode": "RSRDE"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "segmentId": "GTvx9K8vdtTkG1ja"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "segmentId": "GMEDsZWZ+4XVRLHF"
+       }
+      ],
+      "baseFareTotal": "EUR107.00",
+      "saleFareTotal": "EUR107.00",
+      "saleTaxTotal": "EUR51.99",
+      "saleTotal": "EUR158.99",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR6.87"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR7.38"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "EUR13.71"
+       }
+      ],
+      "fareCalculation": "BER KL X/AMS 75.00NSRDE KL FRA 42.15RSRDE NUC 117.15 END ROE 0.913258 FARE EUR 107.00 XT 6.87DE 7.38OY 13.71RA 10.53CJ 13.00RN 0.50VV",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR158.99",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00G",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 270,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "KL",
+         "number": "1830"
+        },
+        "id": "Gb2UfPS8aPvAcfG3",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LOOUIFV6Z1KE1r0R",
+          "aircraft": "73W",
+          "arrivalTime": "2016-04-30T18:45+02:00",
+          "departureTime": "2016-04-30T17:25+02:00",
+          "origin": "TXL",
+          "destination": "AMS",
+          "duration": 80,
+          "mileage": 359,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 120
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "KL",
+         "number": "1775"
+        },
+        "id": "GFEK1x9atERQ+TRI",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LbzkjmCG9NcujlbN",
+          "aircraft": "F70",
+          "arrivalTime": "2016-04-30T21:55+02:00",
+          "departureTime": "2016-04-30T20:45+02:00",
+          "origin": "AMS",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 70,
+          "operatingDisclosure": "OPERATED BY KLM CITYHOPPER",
+          "mileage": 227,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "carrier": "KL",
+        "origin": "BER",
+        "destination": "AMS",
+        "basisCode": "NSRDE"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "carrier": "KL",
+        "origin": "AMS",
+        "destination": "FRA",
+        "basisCode": "RSRDE"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "segmentId": "Gb2UfPS8aPvAcfG3"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "segmentId": "GFEK1x9atERQ+TRI"
+       }
+      ],
+      "baseFareTotal": "EUR107.00",
+      "saleFareTotal": "EUR107.00",
+      "saleTaxTotal": "EUR51.99",
+      "saleTotal": "EUR158.99",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR6.87"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR7.38"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "EUR13.71"
+       }
+      ],
+      "fareCalculation": "BER KL X/AMS 75.00NSRDE KL FRA 42.15RSRDE NUC 117.15 END ROE 0.913258 FARE EUR 107.00 XT 6.87DE 7.38OY 13.71RA 10.53CJ 13.00RN 0.50VV",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR158.99",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00D",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 195,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "KL",
+         "number": "1826"
+        },
+        "id": "G9LEN7wkdjHGC4UN",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L49v2N1gUG1a1khy",
+          "aircraft": "73H",
+          "arrivalTime": "2016-04-30T15:50+02:00",
+          "departureTime": "2016-04-30T14:30+02:00",
+          "origin": "TXL",
+          "destination": "AMS",
+          "duration": 80,
+          "mileage": 359,
+          "meal": "Snack or Brunch"
+         }
+        ],
+        "connectionDuration": 50
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 65,
+        "flight": {
+         "carrier": "KL",
+         "number": "1769"
+        },
+        "id": "GTvx9K8vdtTkG1ja",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3K5ttf+Mebcfbfb",
+          "aircraft": "E90",
+          "arrivalTime": "2016-04-30T17:45+02:00",
+          "departureTime": "2016-04-30T16:40+02:00",
+          "origin": "AMS",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 65,
+          "operatingDisclosure": "OPERATED BY KLM CITYHOPPER",
+          "mileage": 227,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "carrier": "KL",
+        "origin": "BER",
+        "destination": "AMS",
+        "basisCode": "NSRDE"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "carrier": "KL",
+        "origin": "AMS",
+        "destination": "FRA",
+        "basisCode": "RSRDE"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYyWaaFYaaEwVBD2f560sbdhIsEDXK1kMxh/Vyh3RNhE",
+        "segmentId": "G9LEN7wkdjHGC4UN"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ACDWkGx4rqOOWR4mN7WlZ2esa2CUNdBme+MPJvs4oNfI",
+        "segmentId": "GTvx9K8vdtTkG1ja"
+       }
+      ],
+      "baseFareTotal": "EUR107.00",
+      "saleFareTotal": "EUR107.00",
+      "saleTaxTotal": "EUR51.99",
+      "saleTotal": "EUR158.99",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VV_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VV",
+        "country": "NL",
+        "salePrice": "EUR0.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "RN",
+        "country": "NL",
+        "salePrice": "EUR13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CJ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CJ",
+        "country": "NL",
+        "salePrice": "EUR10.53"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR6.87"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR7.38"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RA_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RA",
+        "country": "DE",
+        "salePrice": "EUR13.71"
+       }
+      ],
+      "fareCalculation": "BER KL X/AMS 75.00NSRDE KL FRA 42.15RSRDE NUC 117.15 END ROE 0.913258 FARE EUR 107.00 XT 6.87DE 7.38OY 13.71RA 10.53CJ 13.00RN 0.50VV",
+      "latestTicketingTime": "2016-04-27T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR161.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00B",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "LH",
+         "number": "177"
+        },
+        "id": "GGS3hz2HvbrytZxW",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L5nV8BIGcDVrj6tg",
+          "aircraft": "321",
+          "arrivalTime": "2016-04-30T09:55+02:00",
+          "departureTime": "2016-04-30T08:45+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "1",
+          "duration": 70,
+          "mileage": 268,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AoomjlGeiT84GgV5GnQoiTCScjYd2/CwugaDapSBwiw+U",
+        "carrier": "LH",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "V20CLS9G"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoomjlGeiT84GgV5GnQoiTCScjYd2/CwugaDapSBwiw+U",
+        "segmentId": "GGS3hz2HvbrytZxW"
+       }
+      ],
+      "baseFareTotal": "EUR87.00",
+      "saleFareTotal": "EUR87.00",
+      "saleTaxTotal": "EUR74.27",
+      "saleTotal": "EUR161.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR25.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "EUR16.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER LH FRA 87.00V20CLS9G EUR 87.00 END XT 8.18DE 8.78OY 16.31RD 25.00YQ 16.00YR",
+      "latestTicketingTime": "2016-04-29T14:19-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "EUR204.27",
+    "id": "dscrCmE0KPFNVzeHT6U9nH00C",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "AB",
+         "number": "6585"
+        },
+        "id": "GRudAQZt7kPbgRTN",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LoEwRprL66lt3jY5",
+          "aircraft": "DH4",
+          "arrivalTime": "2016-04-30T14:10+02:00",
+          "departureTime": "2016-04-30T12:55+02:00",
+          "origin": "TXL",
+          "destination": "FRA",
+          "destinationTerminal": "2",
+          "duration": 75,
+          "mileage": 268,
+          "meal": "Refreshments"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A5CdRkaAyGPyYJ6JYuKQ+z8ivXGe73dlh/3Gf6jpRwaVq",
+        "carrier": "AB",
+        "origin": "BER",
+        "destination": "FRA",
+        "basisCode": "MNCOW"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A5CdRkaAyGPyYJ6JYuKQ+z8ivXGe73dlh/3Gf6jpRwaVq",
+        "segmentId": "GRudAQZt7kPbgRTN"
+       }
+      ],
+      "baseFareTotal": "EUR131.00",
+      "saleFareTotal": "EUR131.00",
+      "saleTaxTotal": "EUR73.27",
+      "saleTotal": "EUR204.27",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "EUR40.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "RD_002",
+        "chargeType": "GOVERNMENT",
+        "code": "RD",
+        "country": "DE",
+        "salePrice": "EUR16.31"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DE_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DE",
+        "country": "DE",
+        "salePrice": "EUR8.18"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OY",
+        "country": "DE",
+        "salePrice": "EUR8.78"
+       }
+      ],
+      "fareCalculation": "BER AB FRA 131.00MNCOW EUR 131.00 END XT 8.18DE 8.78OY 16.31RD 40.00YQ",
+      "latestTicketingTime": "2016-04-27T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}

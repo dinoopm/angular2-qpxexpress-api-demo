@@ -1,0 +1,334 @@
+body{
+	background: #FBFBFB;
+}
+a{
+	color: #00B4E5;
+	text-decoration: none;
+}
+p{
+	margin: 0;
+}
+h2{
+	margin:0;
+	padding:0;
+	font-weight: normal;
+	font-size: 24px;
+	padding: 20px 0 20px 0;
+	color: #3B6DA6;
+}
+
+.site-header{
+	padding:20px 0 20px 10px;
+	font-size: 22px;
+    border-bottom :1px dotted #ccc;
+	color: #000;
+	margin-bottom: 5px;
+
+}
+h1{
+	margin: 0; padding: 0;
+	margin: 10px 0 0 0;
+	font-size: 40px
+}
+h1 span{
+	color: #00B4E3;
+}
+#wrapper{
+	padding: 10px;	
+}
+
+.flight-search-form{
+  
+}
+.flight-search-form button{
+   float: right;   
+   margin: 10px 15px 0 0;
+}
+.pure-form label{
+	padding: 5px 0;
+}
+
+.price{
+	display: block; 
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	color: #DB2727;
+}
+img.airline-logo{
+	border: 1px solid #3B6DA6;
+	padding: 2px;
+}
+
+.search-result-item{
+    margin: 0 0 10px 0;
+	padding: 15px 15px;
+	border-bottom: 1px dotted #3B6DA6;
+	background: #fff;
+	/*border: 1px solid #ccc;
+	background: rgba(255,255,255,.5);
+	box-shadow: -1px 1px 2px rgba(0,0,0,.07);
+	-webkit-transition: box-shadow .5s;
+    transition: box-shadow .5s;*/
+}
+.search-result-item .col3{
+	padding-left: 20%;
+}
+.arrow{
+	display: inline-block;
+	margin:2px 5px;
+}
+.stops{
+    display: block; 
+	padding:10px 0;
+	color: #000;
+}
+a.show-details{
+   display: inline-block;
+   margin: 10px 0;
+}
+.airline-name{
+	padding:0 0 5px 0;
+	font-size: 16px;
+	color: #000;
+}
+
+.booknow-btn{
+	margin-bottom: 15px;
+}
+.button-success {
+	background:#00B4E3; /* this is a green */
+	color: #fff;
+	border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.range-wrapper p{
+	padding: 0 0 15px 0;
+	font-size: 13px;
+}
+.filter-wrapper{
+	line-height: 28px;
+	color: #000;
+	font-size: 14px;
+}
+aside{
+
+	padding: 0  0 0 10px;
+}
+
+.booknow-btn{
+	padding:10px;
+	font-size:13px;
+}
+
+.flight-details{
+	background: #fff;
+	min-height: 100px;
+	padding: 10px;
+	border:1px solid #ccc;
+	font-size: 13px;
+	display: none;
+
+}
+.flight-details h2{
+	padding: 0px;
+	font-size: 18px;
+}
+.flight-operator{
+	background: url('../images/sprite.png') no-repeat 0 -119px ;
+	padding-left: 18px;
+}
+.leg-aircraft{
+	padding: 5px 0;
+	margin: 10px  0  0 0;
+	font-weight: bold;
+	background: #E5DEDE;
+	color: #000;
+
+}
+.highlight{
+	background: #FFEEEE;
+	border: 1px dotted #ccc;
+	padding: 5px;
+	margin: 10px 0;
+	color: #000;
+}
+.leg{
+	margin: 15px 0 0 0;
+}
+.departure{
+	background: url('../images/sprite.png') no-repeat 0 1px ;
+	padding-left: 18px;
+}
+.arrival{
+	background: url('../images/sprite.png') no-repeat 0 -40px ;
+	padding-left: 18px;
+}
+.changeIcon{
+	background: url('../images/sprite.png') no-repeat 0 -78px ;
+	padding-left: 18px;
+	color: red;
+}
+.change{
+    background: #FBFBFB;
+	border-top:1px dotted #ccc;
+	border-bottom:1px dotted #ccc;
+	padding: 10px 0;
+	margin: 10px 0;
+}
+.search-results-menu{
+	background: #7EA0C6;
+	padding: 10px 0px 10px 0;
+	color: #fff;
+	font-size:12px;
+}
+.search-results-menu strong{
+	padding: 0 0 0 10px;
+}
+.sortby{
+	text-align: right;
+}
+.sortby strong{
+    cursor: pointer;
+}
+.modify-search{
+	margin: 10px 0;
+	border: 1px dotted #ccc;
+	background: #fff;
+}
+.modify-search h2{
+	padding: 10px;
+	font-size: 19px;
+	color: #3B6DA6;
+	background: url('../images/circle.png') no-repeat 98% 15px ;
+}	
+
+.pure-form button{
+  float:right;
+  display: block;
+  margin:10px 10px 0;
+}
+.modify-search .pure-form{
+	width: 95%;
+    padding-bottom: 60px;
+	display: block;
+}
+.modify-search-wrapper h2{
+	display: none;
+}
+.modify-search button{
+	float: right;
+	margin :10px 10px 0 0;
+}
+
+.ng-valid[required] {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid {
+  border-left: 5px solid #a94442; /* red */
+}
+.alert-danger,.errorMessage{
+ color: red;
+}	
+
+/* Small Devices */
+
+@media screen and (min-width: 35.5em){
+
+
+}
+/* medium Devices */
+@media screen and (min-width: 48em){
+	input[type='date']{
+		height: 38px;
+	}
+	
+    .pure-form {
+		 width: 70%;
+		 margin-left: 20px;
+	}
+	main{
+		border-left:1px dotted #ccc;
+	}
+	aside,main{
+		min-height: 500px;
+		padding: 10px;
+	}
+	.search-result-item .col3{
+		padding-left: 0;
+	}
+	.search-result-item {
+		background: none;
+	}	
+	aside{
+	  min-height: 200px;		
+    }	
+	.booknow-btn{
+		padding:12px;
+		font-size:14px;
+	}
+}
+
+/* large Devices */
+@media screen and (min-width: 64em){
+
+}
+
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 90%; /* Specific width is required for Firefox. */
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent; /* Hides the slider so custom styles can be added */
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  background: #00B4E3;
+  cursor: pointer;
+  margin-top: -2px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+}

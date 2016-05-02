@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Flights</title>
+  <base href="/">
+  {{content-for 'head'}}
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Service worker support is disabled by default.
+       Install the worker script and uncomment to enable.
+       Only enable service workers in production.
+  <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/worker.js').catch(function(err) {
+        console.log('Error installing service worker: ', err);
+      });
+    }
+  </script>
+  -->
+
+<link rel="stylesheet" href="styles/pure-min.css">
+<link rel="stylesheet" href="styles/grids-responsive-min.css">
+<link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+
+  <div class="pure-g">
+    <header class="pure-u-1-1 site-header"><h1 class="logo"><span>QPX</span>Express</h1></header>
+  </div>
+  <div id="wrapper">
+
+  <flights-app>Loading...</flights-app>
+
+  </div>
+
+  <script src="vendor/es6-shim/es6-shim.js"></script>
+  <script src="vendor/systemjs/dist/system-polyfills.js"></script>
+  <script src="vendor/angular2/bundles/angular2-polyfills.js"></script>
+  <script src="vendor/systemjs/dist/system.src.js"></script>
+  <script src="vendor/rxjs/bundles/Rx.js"></script>
+
+  <script src="vendor/angular2/bundles/angular2.dev.js"></script>
+  <script src="vendor/angular2/bundles/http.dev.js"></script>
+  <script src="vendor/angular2/bundles/router.dev.js"></script>
+  <script src="vendor/moment/moment.js"></script>
+  
+  <script>
+    System.import('system-config.js').then(function(systemConfig) {
+      System.config(systemConfig.config);
+    }).then(function () {
+      System.import('main.js')
+    }).catch(console.error.bind(console));
+  </script>
+</body>
+</html>
