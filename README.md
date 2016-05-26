@@ -6,14 +6,10 @@ A flight search app demo created using QPX Express API and Angular2.
 
 ```
 npm install -g angular-cli
-```
-```
 npm install
-```
 ng serve --port 4201 --live-reload-port 49153
 ```
 Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
 
 Creating a build
 
