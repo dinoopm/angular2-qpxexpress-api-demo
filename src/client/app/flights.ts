@@ -19,13 +19,7 @@ import { SearchResultsComponent } from './search/searchresults.component';
   { path: '/home', name: 'Home', component: SearchFormComponent, useAsDefault: true },
   { path: '/flights/:from/:to/:departDate/:adult/:children/:infants', name: 'Flights', component: SearchResultsComponent }
 ])
-export class FlightsApp {
-  defaultMeaning: number = 42;
-
-  meaningOfLife(meaning?: number) {
-    return `The meaning of life is ${meaning || this.defaultMeaning}`;
-  }
-}
+export class FlightsApp {}
 
 
 
